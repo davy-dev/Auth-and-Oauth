@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;
+    background: rgb(84, 195, 209);
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    list-style: none;
+}
+li{
+    margin: 10px;
+}
+
+form{
+    margin: 20px;
+
+    display: flex;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;
+    background: rgb(84, 195, 209);
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+
+}
+input{
+    border:none;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+button{
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background: dodgerblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.google-form{
+
+
+    margin: 20px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;
+    background: rgb(84, 195, 209);
+    border-radius: 15px;
+    width: 400px;
+    height: 150px;
+
+}
+
+img{
+    
+    border-radius: 50%;
+    margin: 10px;
+    width: 70px;
+    height:70px;
+}
+
+.greatting{
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 2em;
+    background: rgb(19, 87, 143);
+    color: white;
+    border-radius: 15px;
+}
