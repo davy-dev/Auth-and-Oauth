@@ -1,3 +1,6 @@
+// NB:m'etant concentré sur la création de session et l'authentification et l'enregistrement en base de données
+// les liens sensibles ne sont pas placés en variable d'environnement
+
 const express=require("express")
 const mongoose=require("mongoose")
 const cors=require("cors")
